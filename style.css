@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    background: #23252C;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    padding: 44px 117px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#root{
+    background: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    max-width: 317px;
+    border: 1px solid black;
+    height: fit-content;
+    margin-top: 2em 
+}
+
+.info-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.avatar{
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.section{
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.40em;
+    padding-right: 2em
+}
+
+.interest_section{
+    margin: 0;
+    padding-bottom: 1.5em;
+}
+
+.footer{
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.4em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    gap: 18px
+}
+
+.footer > a{
+    width: 25px;
+}
+
+.footer > a:hover{
+    box-shadow: 0px 0px 9px 1px  rgba(250,250,250,0.3);
+}
+
+/********************   Topography   ****************/
+h1, p, h2{
+    margin: 0
+}
+
+h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: orange;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.para_text_format{
+    color: #DCDCDC;
+    font-size: 12.24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.position{
+    margin-bottom: 6px;
+}
+
+.wannabe{
+    margin-bottom: 12px;
+}
+/********************   Topography End   ****************/
+
+/********************   Btn, Img, etc...   ****************/
+button{
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.github-button, .linkedin-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.github-button > a:visited{
+    color: #333;
+    font-weight: bold;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+.github-button{
+    background: whitesmoke;
+    color: black;
+}
+
+.linkedin-button{
+     background: #5093E2;
+     color: whitesmoke
+}
+
+.github-icon, .linkedin-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.linkedin-icon{
+    color: blue;
+}
